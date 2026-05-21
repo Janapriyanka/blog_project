@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router-dom';
 import {createUserWithEmailAndPassword} from 'firebase/auth';
 import auth from '../config/firebase';
 
@@ -17,7 +17,7 @@ useEffect(()=>{
       }
       
      })
-},[])
+},[Navigate])
 
 
 
