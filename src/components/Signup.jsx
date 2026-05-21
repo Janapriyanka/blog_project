@@ -17,7 +17,7 @@ useEffect(()=>{
       }
       
      })
-},[Navigate])
+},[navigate])
 
 
 
